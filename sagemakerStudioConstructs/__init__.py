@@ -1,7 +1,7 @@
 from typing import List
 
 from aws_cdk import (
-	core, aws_iam as iam, aws_ec2 as ec2
+	core, aws_iam as iam
 )
 
 import aws_cdk.cloudformation_include as cfn_inc
