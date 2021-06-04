@@ -1,4 +1,4 @@
-# Using the AWS CDK to build and automatise the management of your Sagemaker Studio Users!
+# Build and automatize the management of your Sagemaker Studio Users using AWS CDK!
 
 You should explore the contents of this project. It demonstrates a CDK app with an instance of a
 stack (`sagemakerStudioCDK`)
