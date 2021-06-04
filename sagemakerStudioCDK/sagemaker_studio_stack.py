@@ -7,7 +7,6 @@ from aws_cdk import (
 	core
 )
 
-import aws_cdk.cloudformation_include as cfn_inc
 import sagemakerStudioConstructs
 
 
