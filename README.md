@@ -45,7 +45,7 @@ Step 6: Synthesize the templates. AWS CDK apps use code to define the infrastruc
 
 Step 7: Deploy the solution.
 
-`cdk deploy`
+`cdk deploy  sagemakerStudioCDK -c existing_vpc_id="<THE_VPC_ID_WHERE_TO_DEPLOY_SAGEMAKER_STUDIO>"` 
 
 Review the resources that AWS CDK creates for you in your AWS account and choose yes to deploy the stack.
 

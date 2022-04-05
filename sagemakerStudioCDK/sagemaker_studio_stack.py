@@ -27,7 +27,7 @@ class SagemakerStudioStack(core.Stack):
 		self.sagemaker_domain_name = "DomainForSagemakerStudio"
 
 		default_vpc_id = ec2.Vpc.from_lookup(self, "VPC",
-		                                     is_default=True
+		                                     vpc_id=self.node.try_get_context('existing_vpc_id')
 		                                     )
 
 		self.vpc_id = default_vpc_id.vpc_id
